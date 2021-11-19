@@ -1,0 +1,30 @@
+{
+  "name": "css-text-portrait-builder",
+  "version": "1.0.0",
+  "description": "A popular pure CSS text portrait builder for your loved ones.",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarenGonzaga/css-text-portrait-builder.git"
+  },
+  "keywords": [
+    "css",
+    "text",
+    "portrait",
+    "builder"
+  ],
+  "author": "Waren Gonzaga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarenGonzaga/css-text-portrait-builder/issues"
+  },
+  "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}
