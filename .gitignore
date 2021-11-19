@@ -9,6 +9,3 @@ yarn-error.log
 
 # parceljs
 .parcel-cache
-
-# build files
-dist/
