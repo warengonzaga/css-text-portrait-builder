@@ -5,7 +5,8 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "parcel buisrc/index.html --public-url"
   },
   "repository": {
     "type": "git",
