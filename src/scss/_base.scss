@@ -1,0 +1,32 @@
+/**
+ * base.scss
+ */
+
+html, body , p {
+    overflow: hidden !important;
+    overflow-anchor: none;
+}
+
+body {
+    background-color: $background-color;
+}
+
+body, p {
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-family: $font;
+    font-size: $font-size;
+    line-height: $line-height;
+    background-image: $background-image;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
