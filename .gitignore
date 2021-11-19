@@ -1,0 +1,11 @@
+# deepcode
+.dccache
+
+# nodejs
+node_modules
+
+# yarn
+yarn-error.log
+
+# parceljs
+.parcel-cache
