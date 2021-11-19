@@ -23,8 +23,12 @@
     "url": "https://github.com/WarenGonzaga/css-text-portrait-builder/issues"
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fork-corner": "^2.0.1",
+    "normalize.css": "^8.0.1"
+  },
   "devDependencies": {
-    "sass": "^1.43.4"
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1"
   }
 }
