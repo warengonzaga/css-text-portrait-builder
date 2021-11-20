@@ -1,6 +1,6 @@
 {
   "name": "css-text-portrait-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A popular pure CSS text portrait builder for your loved ones.",
   "source": "src/index.html",
   "scripts": {
