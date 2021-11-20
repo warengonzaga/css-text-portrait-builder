@@ -53,7 +53,7 @@ If you meet the requirements above then proceed to the steps below.
 2. Place your image inside `src/img`, just replace the existing image.
 3. Now, edit `config.json` inside `src` folder.
 4. Replace the text object inside with your own text. It can be a lyrics, a message, or a passage from a book its up to you! (I prefer personal message if this is for your loved one.)
-5. Open your terminal/cmd/bash and type
+5. Open your terminal/cmd/bash and type:
 
     ```cmd
     yarn install
@@ -65,8 +65,18 @@ If you meet the requirements above then proceed to the steps below.
    yarn run build
    ```
 
-7. Open `dist` folder and open `index.html` to your favorite browser.
-8. You're done!
+7. Lastly, you need to serve your builds, type:
+
+    ```bash
+    yarn run serve
+    ```
+
+    A local server should open at port `1234`
+    > e.g. <http://localhost:1234>
+
+8. You're done! 🎉
+
+> **Note**: The output is not locally accessible. Meaning can't be viewed on your local machine without being served. I'm currently working on packaging the output after building.
 
 ### 📡 Hosting
 

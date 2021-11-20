@@ -1,11 +1,13 @@
 {
   "name": "css-text-portrait-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A popular pure CSS text portrait builder for your loved ones.",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build --no-content-hash src/index.html"
+    "clean:output": "rimraf dist",
+    "dev": "yarn run clean:output && parcel src/index.html",
+    "build": "yarn run clean:output && parcel build src/index.html",
+    "serve": "parcel serve src/index.html"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
-    "parcel": "^2.0.1"
+    "parcel": "^2.0.1",
+    "rimraf": "^3.0.2"
   }
 }
