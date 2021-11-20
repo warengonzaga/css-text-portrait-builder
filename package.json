@@ -5,8 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "deploy": "parcel buisrc/index.html --public-url"
+    "build": "parcel build --no-content-hash src/index.html"
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,6 @@
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
   "dependencies": {
-    "fork-corner": "^2.0.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
