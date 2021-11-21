@@ -37,9 +37,23 @@ The complete documentation can be found here:
 
 ## 🕹️ Usage
 
-To build your own pure CSS text portrait, you need to meet the requirements below.
+To build your own pure CSS text portrait, you need to meet the following requirements below.
 
-### 📋 Requirements
+### 🛠️ Instant Setup & Build
+
+The quick setup will help you to make your building more easier by using a service online called Gitpod. Click the button below to get started.
+
+#### 📋 Requirements
+
+- High resolution image in JPG format.
+
+[![open in gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/warengonzaga/css-text-portrait-builder)
+
+### 🔨 Manual Setup & Build
+
+The manual setup requires a local machine to build your CSS text portrait manually. Be sure to meet the requirements below.
+
+#### 📋 Requirements
 
 - NodeJS LTS version.
 - Terminal/CMD/Bash installed or access.
