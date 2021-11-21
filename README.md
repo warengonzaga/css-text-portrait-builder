@@ -1,4 +1,4 @@
-# CSS Text Portrait Builder
+# CSS Text Portrait Builder [![Mentioned in Awesome CSS Text Portrait](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/warengonzaga/awesome-css-text-portrait)
 
 [![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
 
