@@ -94,7 +94,7 @@ For any questions, suggestions, ideas, or simply you want to share your experien
 
 ## 🐛 Issues
 
-If you're facing a problem in using CSS Text Portrait Builder please let me know by [creating an issue here](https://github.com/warengonzaga/css-text-portrait-builder/issues/new). I'm here to help you!
+If you're facing a problem in using CSS Text Portrait Builder please [check the community FAQs first](https://github.com/WarenGonzaga/css-text-portrait-builder/discussions?discussions_q=label%3Afaq), if your issue is a potential bug I would suggest to [create an issue here](https://github.com/warengonzaga/css-text-portrait-builder/issues/new). I'm here to help you! 😇
 
 ## 🍀 Sponsors and Supporters
 
