@@ -3,7 +3,7 @@
  */
 
 html, body , p {
-    overflow: hidden !important;
+    overflow: hidden;
     overflow-anchor: none;
 }
 
@@ -17,10 +17,10 @@ body, p {
 
 p {
     text-align: justify;
-    font-family: $font;
-    font-size: $font-size;
-    line-height: $line-height;
-    background-image: $background-image;
+    font-family: $inter;
+    font-size: $regular;
+    line-height: $regular;
+    background-image: $subject-image;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
