@@ -4,6 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 $inter: 'Inter', sans-serif;
-$subject-image: url('../img/bg.jpg');
-$black: #222;
-$regular: 12px;
+
+/**
+ * builder settings
+ */
+$subject-image: url('../img/bg.jpg'); // image to potrait
+$black: #222; // background color
+$regular: 12px; // font size
+
+/**
+ * image filter settings
+ * defaults: brightness = 1, grayscale = 0 (colored result)
+ * classic: brightness = 0.8, grayscale = 1 (black and white result)
+ */
+$brigthness: 1;
+$grayscale: 0;

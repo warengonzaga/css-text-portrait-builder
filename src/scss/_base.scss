@@ -16,17 +16,18 @@ body, p {
 }
 
 p {
-    text-align: justify;
-    font-family: $inter;
-    font-size: $regular;
-    line-height: $regular;
-    background-image: $subject-image;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: transparent;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    background-image: $subject-image;
+    filter: brightness($brigthness) grayscale($grayscale);
+    font-family: $inter;
+    font-size: $regular;
+    line-height: $regular;
+    text-align: justify;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
