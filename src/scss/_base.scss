@@ -3,12 +3,12 @@
  */
 
 html, body , p {
-    overflow: hidden !important;
+    overflow: hidden;
     overflow-anchor: none;
 }
 
 body {
-    background-color: $background-color;
+    background-color: $black;
 }
 
 body, p {
@@ -16,17 +16,18 @@ body, p {
 }
 
 p {
-    text-align: justify;
-    font-family: $font;
-    font-size: $font-size;
-    line-height: $line-height;
-    background-image: $background-image;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: transparent;
-    -webkit-text-fill-color: transparent;
     background-clip: text;
+    background-image: $subject-image;
+    filter: brightness($brigthness) grayscale($grayscale) invert($invert);
+    font-family: $inter;
+    font-size: $regular;
+    line-height: $regular;
+    text-align: justify;
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }

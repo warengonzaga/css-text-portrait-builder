@@ -1,0 +1,8 @@
+tasks:
+  - name: Instant Setup
+    init: yarn install
+    command: yarn dev
+ports:
+  - port: 7070
+    onOpen: open-browser
+    visibility: public

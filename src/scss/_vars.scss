@@ -3,8 +3,20 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-$font: 'Inter', sans-serif;
-$background-image: url('../img/bg.jpg');
-$background-color: #111;
-$font-size: 12px;
-$line-height: 12px;
+$inter: 'Inter', sans-serif;
+
+/**
+ * builder settings
+ */
+$subject-image: url('../img/bg.jpg'); // image to potrait
+$black: #222; // background color
+$regular: 12px; // font size
+
+/**
+ * image filter settings
+ * defaults: brightness = 1, grayscale = 0, invert = 0 (colored result)
+ * classic: brightness = 0.8, grayscale = 1, invert = 0 (black and white result)
+ */
+$brigthness: 1;
+$grayscale: 0;
+$invert: 0; // it will convert the color of the image
