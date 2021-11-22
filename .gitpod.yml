@@ -3,6 +3,6 @@ tasks:
     init: yarn install
     command: yarn dev
 ports:
-  - port: 7070
+  - port: 1234
     onOpen: open-browser
     visibility: public
