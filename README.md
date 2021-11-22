@@ -66,7 +66,7 @@ Meet the requirements? Click the Gitpod button below to get started!
 5. Navigate to `src/scss` and open the file `_vars.scss` to edit the settings.
 6. Lastly, look in the command-line interface and hover your mouse to the `https://localhost:1234` and press `ctrl` + `left click` to open it to a new tab. You'll see your builds in real-time.
 
-> For the complete documentation please visit https://docs/warengonzaga.com/css-text-portrait-builder. 😎
+> For the complete documentation please visit <https://docs.warengonzaga.com/css-text-portrait-builder>. 😎
 
 ## 📡 Hosting
 
