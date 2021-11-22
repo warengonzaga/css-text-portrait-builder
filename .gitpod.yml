@@ -5,3 +5,4 @@ tasks:
 ports:
   - port: 7070
     onOpen: open-preview
+    visibility: public
