@@ -19,15 +19,21 @@ I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](ht
 
 - your build url here.
 
+[View more showcase here](https://github.com/WarenGonzaga/css-text-portrait-builder/discussions/categories/showcase).
+
 ## ⚡ Features
 
 - Auto-fill screen with text.
 - Responsive build output.
 - Optimized builds.
-- Easy to use, no-code friendly.
-- Filter settings (will add).
+- Easy to use, no-code/low-code friendly.
+- Filter settings.
+  - brightness
+  - grayscale
+  - invert
+- Gitpod support.
 
-Have suggestions? Let me know!
+Have suggestions in mind? Let me know!
 
 ## 📖 Documentation
 
@@ -35,64 +41,34 @@ The complete documentation can be found here:
 
 [![docs](https://img.shields.io/badge/Docs-docs.warengonzaga.com/css--text--portrait--builder-blue.svg?longCache=true&style=for-the-badge)](https://docs.warengonzaga.com/css-text-portrait-builder)
 
-## 🕹️ Usage
+## 🛠️ Instant Setup
 
-To build your own pure CSS text portrait, you need to meet the following requirements below.
+Let's get started with the instant setup and build. Proceed to the requirements below.
 
-### 🛠️ Instant Setup & Build
+### 📋 Requirements
 
-The quick setup will help you to make your building more easier by using a service online called Gitpod. Click the button below to get started.
+- A [GitHub Account](https://github.com/signup).
+- A [Gitpod Account](https://gitpod.io). (sign up with GitHub)
+- High resolution image in JPG/JPEG format. (we don't need PNG/GIF)
 
-#### 📋 Requirements
-
-- High resolution image in JPG format.
+Meet the requirements? Click the Gitpod button below to get started!
 
 [![open in gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/warengonzaga/css-text-portrait-builder)
 
-### 🔨 Manual Setup & Build
+## 🔨 Build Steps (Gitpod)
 
-The manual setup requires a local machine to build your CSS text portrait manually. Be sure to meet the requirements below.
+1. Rename your image into `bg.jpg` and make sure it is in JPG/JPEG format.
+2. Navigate to `src/img` and upload your image, just replace the existing image.
+3. Next, open `config.json` file by just clicking it, an editor will open.
+4. Edit the contents of `config.json` file to match your needs. 
+   - For the object `name`, this is the name of your portrait, it can be a name of your subject.
+   - For the object `text`, this is the text you want to see in the portrait. It can be a lyrics, a passage from a book, or a sweet message to your subject or loved one.
+5. Navigate to `src/scss` and open the file `_vars.scss` to edit the settings.
+6. Lastly, look in the command-line interface and hover your mouse to the `https://localhost:1234` and press `ctrl` + `left click` to open it to a new tab. You'll see your builds in real-time.
 
-#### 📋 Requirements
+> For the complete documentation please visit https://docs/warengonzaga.com/css-text-portrait-builder. 😎
 
-- NodeJS LTS version.
-- Terminal/CMD/Bash installed or access.
-- High resolution image in JPG format.
-
-If you meet the requirements above then proceed to the steps below.
-
-### 📝 Building Steps
-
-1. Rename your image to `bg.jpg` (it should be in JPG, we don't need PNG lol).
-2. Place your image inside `src/img`, just replace the existing image.
-3. Now, edit `config.json` inside `src` folder.
-4. Replace the text object inside with your own text. It can be a lyrics, a message, or a passage from a book its up to you! (I prefer personal message if this is for your loved one.)
-5. Open your terminal/cmd/bash and type:
-
-    ```cmd
-    yarn install
-    ```
-
-6. Once done, type:
-
-   ```bash
-   yarn run build
-   ```
-
-7. Lastly, you need to serve your builds, type:
-
-    ```bash
-    yarn run serve
-    ```
-
-    A local server should open at port `1234`
-    > e.g. <http://localhost:1234>
-
-8. You're done! 🎉
-
-> **Note**: The output is not locally accessible. Meaning can't be viewed on your local machine without being served. I'm currently working on packaging the output after building.
-
-### 📡 Hosting
+## 📡 Hosting
 
 To learn more about hosting your builds check out the [community discussion](https://github.com/warengonzaga/css-text-portrait-builder/discussions).
 
@@ -112,7 +88,7 @@ If you're facing a problem in using CSS Text Portrait Builder please [check the 
 
 ## 🍀 Sponsors and Supporters
 
-[![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://img.shields.io/badge/Vercel-%23000.svg?&style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![CircleCI](https://img.shields.io/badge/CircleCI-%23000.svg?&style=for-the-badge&logo=CircleCI&logoColor=white)](https://vercel.com) [![GitBook](https://img.shields.io/badge/GitBook-%233884FF.svg?&style=for-the-badge&logo=gitbook&logoColor=white)](https://gitbook.io) [![Digital Ocean](https://img.shields.io/badge/Digital%20Ocean-%230080ff.svg?&style=for-the-badge&logo=digitalocean&logoColor=white)](https://digitalocean.com) [![Deepware](https://img.shields.io/badge/deepware-%23cb2653.svg?&style=for-the-badge&logoColor=white)](https://deepware.ai/) [![NOWPayments](https://img.shields.io/badge/NOWPayments-%2364ACFF.svg?&style=for-the-badge&logoColor=white)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
+[![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://img.shields.io/badge/Vercel-%23000.svg?&style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![CircleCI](https://img.shields.io/badge/CircleCI-%23000.svg?&style=for-the-badge&logo=CircleCI&logoColor=white)](https://vercel.com) [![GitBook](https://img.shields.io/badge/GitBook-%233884FF.svg?&style=for-the-badge&logo=gitbook&logoColor=white)](https://gitbook.io) [![Digital Ocean](https://img.shields.io/badge/Digital%20Ocean-%230080ff.svg?&style=for-the-badge&logo=digitalocean&logoColor=white)](https://digitalocean.com) [![Gitpod](https://img.shields.io/badge/Gitpod-%23FFAE33.svg?&style=for-the-badge&logo=gitpod&logoColor=black)](https://gitpod.io) [![Deepware](https://img.shields.io/badge/deepware-%23cb2653.svg?&style=for-the-badge&logoColor=white)](https://deepware.ai/) [![NOWPayments](https://img.shields.io/badge/NOWPayments-%2364ACFF.svg?&style=for-the-badge&logoColor=white)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
 
 > Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**! ☕☕☕
 >
