@@ -33,5 +33,6 @@
     "@parcel/transformer-sass": "^2.0.1",
     "parcel": "^2.0.1",
     "rimraf": "^3.0.2"
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
