@@ -4,5 +4,5 @@ tasks:
     command: yarn dev
 ports:
   - port: 7070
-    onOpen: open-preview
+    onOpen: open-browser
     visibility: public
