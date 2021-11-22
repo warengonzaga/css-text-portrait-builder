@@ -23,7 +23,7 @@ p {
     color: transparent;
     background-clip: text;
     background-image: $subject-image;
-    filter: brightness($brigthness) grayscale($grayscale);
+    filter: brightness($brigthness) grayscale($grayscale) invert($invert);
     font-family: $inter;
     font-size: $regular;
     line-height: $regular;

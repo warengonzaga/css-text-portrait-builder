@@ -14,8 +14,9 @@ $regular: 12px; // font size
 
 /**
  * image filter settings
- * defaults: brightness = 1, grayscale = 0 (colored result)
- * classic: brightness = 0.8, grayscale = 1 (black and white result)
+ * defaults: brightness = 1, grayscale = 0, invert = 0 (colored result)
+ * classic: brightness = 0.8, grayscale = 1, invert = 0 (black and white result)
  */
 $brigthness: 1;
 $grayscale: 0;
+$invert: 0; // it will convert the color of the image
