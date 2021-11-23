@@ -41,6 +41,10 @@ The complete documentation can be found here:
 
 [![docs](https://img.shields.io/badge/Docs-docs.warengonzaga.com/css--text--portrait--builder-blue.svg?longCache=true&style=for-the-badge)](https://docs.warengonzaga.com/css-text-portrait-builder)
 
+### 🎓 Tutorial
+
+- **[CSS Text Portrait Builder Tutorial (Tagalog)](https://youtu.be/K6FbjwvVq_g)**
+
 ## 🛠️ Instant Setup
 
 Let's get started with the instant setup and build. Proceed to the requirements below.
