@@ -14,6 +14,8 @@ There are many ways to contribute to this open source project. Any contributions
 
 If you can write a code then create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. I will auto reject if you submit your pull request to the ```main``` branch.
 
+Before submitting a pull request, ensure that there is no code style issues by running `yarn run check`. If there are issues found, run `yarn run stylefix`.
+
 ### 📖 Documentation
 
 (coming soon)
