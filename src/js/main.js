@@ -3,7 +3,7 @@
  */
 
 const repeatText = (text, count) => {
-    return text.repeat(count);
-}
+  return text.repeat(count);
+};
 
 export { repeatText };

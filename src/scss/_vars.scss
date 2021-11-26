@@ -2,13 +2,13 @@
  * vars.scss
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-$inter: 'Inter', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+$inter: "Inter", sans-serif;
 
 /**
  * builder settings
  */
-$subject-image: url('../img/bg.jpg'); // image to potrait
+$subject-image: url("../img/bg.jpg"); // image to potrait
 $black: #222; // background color
 $regular: 12px; // font size
 

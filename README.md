@@ -64,7 +64,7 @@ Meet the requirements? Click the Gitpod button below to get started!
 1. Rename your image into `bg.jpg` and make sure it is in JPG/JPEG format.
 2. Navigate to `src/img` and upload your image, just replace the existing image.
 3. Next, open `config.json` file by just clicking it, an editor will open.
-4. Edit the contents of `config.json` file to match your needs. 
+4. Edit the contents of `config.json` file to match your needs.
    - For the object `name`, this is the name of your portrait, it can be a name of your subject.
    - For the object `text`, this is the text you want to see in the portrait. It can be a lyrics, a passage from a book, or a sweet message to your subject or loved one.
 5. Navigate to `src/scss` and open the file `_vars.scss` to edit the settings.
