@@ -17,4 +17,4 @@ yarn-error.log
 .parcel-cache
 
 # VSCode user-specific settings
-/.vscode
+.vscode

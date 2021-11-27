@@ -1,19 +1,19 @@
 # Yarn
-/.yarn
+.yarn
 .pnp.*
 .yarnrc.yml
 yarn-error.log
 
 # Github
-/.github
+.github
 
 # VSCode user-specific settings
-/.vscode
+.vscode
 
 # Build artifacts
-/dist
+dist
 
 # Misc
-/.dccache
-/.parcel-cache
+.dccache
+.parcel-cache
 .gitpod.yml
