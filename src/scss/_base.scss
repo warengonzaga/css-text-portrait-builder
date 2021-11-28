@@ -2,32 +2,35 @@
  * base.scss
  */
 
-html, body , p {
-    overflow: hidden;
-    overflow-anchor: none;
+html,
+body,
+p {
+  overflow: hidden;
+  overflow-anchor: none;
 }
 
 body {
-    background-color: $black;
+  background-color: $black;
 }
 
-body, p {
-    margin: 0;
+body,
+p {
+  margin: 0;
 }
 
 p {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: transparent;
-    background-clip: text;
-    background-image: $subject-image;
-    filter: brightness($brigthness) grayscale($grayscale) invert($invert);
-    font-family: $inter;
-    font-size: $regular;
-    line-height: $regular;
-    text-align: justify;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  background-image: $subject-image;
+  filter: brightness($brigthness) grayscale($grayscale) invert($invert);
+  font-family: $inter;
+  font-size: $regular;
+  line-height: $regular;
+  text-align: justify;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }

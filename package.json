@@ -5,6 +5,12 @@
   "source": "src/index.html",
   "scripts": {
     "clean:output": "rimraf dist",
+    "format:checkonly": "prettier . -c",
+    "format": "prettier . -w",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "check": "yarn run lint && yarn run format:checkonly",
+    "stylefix": "yarn run format && yarn run lint:fix",
     "dev": "yarn run clean:output && parcel src/index.html",
     "build": "yarn run clean:output && parcel build src/index.html",
     "serve": "parcel serve src/index.html",
@@ -31,7 +37,10 @@
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "eslint": "^8.3.0",
+    "eslint-config-google": "^0.14.0",
     "parcel": "^2.0.1",
+    "prettier": "^2.5.0",
     "rimraf": "^3.0.2"
   },
   "packageManager": "yarn@3.1.0"
