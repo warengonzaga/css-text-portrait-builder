@@ -107,7 +107,7 @@ Join to my growing tech community and get the latest updates!
 
 ## 📋 Code of Conduct
 
-Read the project's [code of conduct](./code_of_conduct.md).
+Read the project's [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## 📃 License
 
@@ -119,12 +119,4 @@ CSS Text Portrait Builder is created by **[Waren Gonzaga](https://github.com/war
 
 ---
 
-💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | **[Citizen of Heaven](https://youtu.be/GwirdlbkUD8?t=150)** ▶️
-
-[personal website]: https://warengonzaga.com
-[business website]: https://wgcompanyhq.com
-[biolink]: https://bio.link/warengonzaga
-[facebook]: https://facebook.com/warengonzagaofficial
-[twitter]: https://twitter.com/warengonzaga
-[instagram]: https://instagram.com/warengonzagaofficial
-[youtube]: https://youtube.com/warengonzaga
+💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [YHWH](https://youtu.be/9vh6Dz9oh8I?t=85) 🙏
