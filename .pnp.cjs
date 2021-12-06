@@ -36,8 +36,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["@parcel/transformer-sass", "npm:2.0.1"],
+            ["bestzip", "npm:2.2.0"],
             ["eslint", "npm:8.3.0"],
             ["eslint-config-google", "virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:0.14.0"],
+            ["jsdom", "virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:19.0.0"],
             ["normalize.css", "npm:8.0.1"],
             ["parcel", "npm:2.0.1"],
             ["prettier", "npm:2.5.0"],
@@ -1499,6 +1501,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tootallnate/once", "npm:1.1.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:2.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-8.zip/node_modules/@tootallnate/once/",
+          "packageDependencies": [
+            ["@tootallnate/once", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@trysound/sax", [
@@ -1573,6 +1582,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
+        ["npm:7.4.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/acorn-npm-7.4.1-f450b4646c-8.zip/node_modules/acorn/",
+          "packageDependencies": [
+            ["acorn", "npm:7.4.1"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:8.6.0", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/acorn-npm-8.6.0-9de50afc7d-8.zip/node_modules/acorn/",
           "packageDependencies": [
@@ -1588,6 +1604,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["acorn-globals", "npm:4.3.4"],
             ["acorn", "npm:6.4.2"],
             ["acorn-walk", "npm:6.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:6.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/acorn-globals-npm-6.0.0-acbec28ad5-8.zip/node_modules/acorn-globals/",
+          "packageDependencies": [
+            ["acorn-globals", "npm:6.0.0"],
+            ["acorn", "npm:7.4.1"],
+            ["acorn-walk", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1619,6 +1644,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/acorn-walk-npm-6.2.0-8b629285e9-8.zip/node_modules/acorn-walk/",
           "packageDependencies": [
             ["acorn-walk", "npm:6.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:7.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/acorn-walk-npm-7.2.0-5f8b515308-8.zip/node_modules/acorn-walk/",
+          "packageDependencies": [
+            ["acorn-walk", "npm:7.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1767,6 +1799,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["archiver", [
+        ["npm:5.3.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/archiver-npm-5.3.0-db4a7efe88-8.zip/node_modules/archiver/",
+          "packageDependencies": [
+            ["archiver", "npm:5.3.0"],
+            ["archiver-utils", "npm:2.1.0"],
+            ["async", "npm:3.2.2"],
+            ["buffer-crc32", "npm:0.2.13"],
+            ["readable-stream", "npm:3.6.0"],
+            ["readdir-glob", "npm:1.1.1"],
+            ["tar-stream", "npm:2.2.0"],
+            ["zip-stream", "npm:4.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["archiver-utils", [
+        ["npm:2.1.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/archiver-utils-npm-2.1.0-c06ce16cc3-8.zip/node_modules/archiver-utils/",
+          "packageDependencies": [
+            ["archiver-utils", "npm:2.1.0"],
+            ["glob", "npm:7.2.0"],
+            ["graceful-fs", "npm:4.2.8"],
+            ["lazystream", "npm:1.0.1"],
+            ["lodash.defaults", "npm:4.2.0"],
+            ["lodash.difference", "npm:4.5.0"],
+            ["lodash.flatten", "npm:4.4.0"],
+            ["lodash.isplainobject", "npm:4.0.6"],
+            ["lodash.union", "npm:4.6.0"],
+            ["normalize-path", "npm:3.0.0"],
+            ["readable-stream", "npm:2.3.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["are-we-there-yet", [
         ["npm:1.1.7", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/are-we-there-yet-npm-1.1.7-db9f39924e-8.zip/node_modules/are-we-there-yet/",
@@ -1875,6 +1942,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["async", "npm:0.9.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.2.2", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/async-npm-3.2.2-0245d236b6-8.zip/node_modules/async/",
+          "packageDependencies": [
+            ["async", "npm:3.2.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["async-limiter", [
@@ -1956,6 +2030,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["bcrypt-pbkdf", "npm:1.0.2"],
             ["tweetnacl", "npm:0.14.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bestzip", [
+        ["npm:2.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/bestzip-npm-2.2.0-4abdcb8ced-8.zip/node_modules/bestzip/",
+          "packageDependencies": [
+            ["bestzip", "npm:2.2.0"],
+            ["archiver", "npm:5.3.0"],
+            ["async", "npm:3.2.2"],
+            ["glob", "npm:7.2.0"],
+            ["which", "npm:2.0.2"],
+            ["yargs", "npm:16.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2154,6 +2242,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["buffer", "npm:5.7.1"],
             ["base64-js", "npm:1.5.1"],
             ["ieee754", "npm:1.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["buffer-crc32", [
+        ["npm:0.2.13", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/buffer-crc32-npm-0.2.13-c4b6fceac1-8.zip/node_modules/buffer-crc32/",
+          "packageDependencies": [
+            ["buffer-crc32", "npm:0.2.13"]
           ],
           "linkType": "HARD",
         }]
@@ -2379,6 +2476,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["cliui", [
+        ["npm:7.0.4", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/cliui-npm-7.0.4-d6b8a9edb6-8.zip/node_modules/cliui/",
+          "packageDependencies": [
+            ["cliui", "npm:7.0.4"],
+            ["string-width", "npm:4.2.3"],
+            ["strip-ansi", "npm:6.0.1"],
+            ["wrap-ansi", "npm:7.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["clone", [
         ["npm:1.0.4", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/clone-npm-1.0.4-a610fcbcf9-8.zip/node_modules/clone/",
@@ -2489,6 +2598,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["compress-commons", [
+        ["npm:4.1.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/compress-commons-npm-4.1.1-9ac41d7ac3-8.zip/node_modules/compress-commons/",
+          "packageDependencies": [
+            ["compress-commons", "npm:4.1.1"],
+            ["buffer-crc32", "npm:0.2.13"],
+            ["crc32-stream", "npm:4.0.2"],
+            ["normalize-path", "npm:3.0.0"],
+            ["readable-stream", "npm:3.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["concat-map", [
         ["npm:0.0.1", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/concat-map-npm-0.0.1-85a921b7ee-8.zip/node_modules/concat-map/",
@@ -2592,6 +2714,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["parse-json", "npm:5.2.0"],
             ["path-type", "npm:4.0.0"],
             ["yaml", "npm:1.10.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["crc-32", [
+        ["npm:1.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/crc-32-npm-1.2.0-e56bb85839-8.zip/node_modules/crc-32/",
+          "packageDependencies": [
+            ["crc-32", "npm:1.2.0"],
+            ["exit-on-epipe", "npm:1.0.1"],
+            ["printj", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["crc32-stream", [
+        ["npm:4.0.2", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/crc32-stream-npm-4.0.2-32a2ec50b7-8.zip/node_modules/crc32-stream/",
+          "packageDependencies": [
+            ["crc32-stream", "npm:4.0.2"],
+            ["crc-32", "npm:1.2.0"],
+            ["readable-stream", "npm:3.6.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2749,8 +2893,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["css-text-portrait-builder", "workspace:."],
             ["@parcel/transformer-sass", "npm:2.0.1"],
+            ["bestzip", "npm:2.2.0"],
             ["eslint", "npm:8.3.0"],
             ["eslint-config-google", "virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:0.14.0"],
+            ["jsdom", "virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:19.0.0"],
             ["normalize.css", "npm:8.0.1"],
             ["parcel", "npm:2.0.1"],
             ["prettier", "npm:2.5.0"],
@@ -2904,6 +3050,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cssom", "npm:0.3.8"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:0.5.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/cssom-npm-0.5.0-44ab2704f2-8.zip/node_modules/cssom/",
+          "packageDependencies": [
+            ["cssom", "npm:0.5.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["cssstyle", [
@@ -2911,6 +3064,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/cssstyle-npm-1.4.0-ae32f18f2b-8.zip/node_modules/cssstyle/",
           "packageDependencies": [
             ["cssstyle", "npm:1.4.0"],
+            ["cssom", "npm:0.3.8"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.3.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/cssstyle-npm-2.3.0-b5d112c450-8.zip/node_modules/cssstyle/",
+          "packageDependencies": [
+            ["cssstyle", "npm:2.3.0"],
             ["cssom", "npm:0.3.8"]
           ],
           "linkType": "HARD",
@@ -2934,6 +3095,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["abab", "npm:2.0.5"],
             ["whatwg-mimetype", "npm:2.3.0"],
             ["whatwg-url", "npm:7.1.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/data-urls-npm-3.0.1-7fc3f58f9b-8.zip/node_modules/data-urls/",
+          "packageDependencies": [
+            ["data-urls", "npm:3.0.1"],
+            ["abab", "npm:2.0.5"],
+            ["whatwg-mimetype", "npm:3.0.0"],
+            ["whatwg-url", "npm:10.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2978,6 +3149,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/supports-color",
             "supports-color"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["decimal.js", [
+        ["npm:10.3.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/decimal.js-npm-10.3.1-797c736b6c-8.zip/node_modules/decimal.js/",
+          "packageDependencies": [
+            ["decimal.js", "npm:10.3.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3128,6 +3308,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webidl-conversions", "npm:4.0.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/domexception-npm-4.0.0-5093673f9b-8.zip/node_modules/domexception/",
+          "packageDependencies": [
+            ["domexception", "npm:4.0.0"],
+            ["webidl-conversions", "npm:7.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["domhandler", [
@@ -3270,6 +3458,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["encoding", "npm:0.1.13"],
             ["iconv-lite", "npm:0.6.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["end-of-stream", [
+        ["npm:1.4.4", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/end-of-stream-npm-1.4.4-497fc6dee1-8.zip/node_modules/end-of-stream/",
+          "packageDependencies": [
+            ["end-of-stream", "npm:1.4.4"],
+            ["once", "npm:1.4.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3419,6 +3617,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["escodegen", "npm:1.14.3"],
             ["esprima", "npm:4.0.1"],
             ["estraverse", "npm:4.3.0"],
+            ["esutils", "npm:2.0.3"],
+            ["optionator", "npm:0.8.3"],
+            ["source-map", "npm:0.6.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/escodegen-npm-2.0.0-6450b02925-8.zip/node_modules/escodegen/",
+          "packageDependencies": [
+            ["escodegen", "npm:2.0.0"],
+            ["esprima", "npm:4.0.1"],
+            ["estraverse", "npm:5.3.0"],
             ["esutils", "npm:2.0.3"],
             ["optionator", "npm:0.8.3"],
             ["source-map", "npm:0.6.1"]
@@ -3637,6 +3847,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["md5.js", "npm:1.3.5"],
             ["node-gyp", "npm:8.4.0"],
             ["safe-buffer", "npm:5.2.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["exit-on-epipe", [
+        ["npm:1.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/exit-on-epipe-npm-1.0.1-1aade96e24-8.zip/node_modules/exit-on-epipe/",
+          "packageDependencies": [
+            ["exit-on-epipe", "npm:1.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -3892,6 +4111,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mime-types", "npm:2.1.34"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/form-data-npm-4.0.0-916facec2d-8.zip/node_modules/form-data/",
+          "packageDependencies": [
+            ["form-data", "npm:4.0.0"],
+            ["asynckit", "npm:0.4.0"],
+            ["combined-stream", "npm:1.0.8"],
+            ["mime-types", "npm:2.1.34"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["format", [
@@ -3899,6 +4128,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/format-npm-0.2.2-679f3acc64-8.zip/node_modules/format/",
           "packageDependencies": [
             ["format", "npm:0.2.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["fs-constants", [
+        ["npm:1.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/fs-constants-npm-1.0.0-59576b2177-8.zip/node_modules/fs-constants/",
+          "packageDependencies": [
+            ["fs-constants", "npm:1.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -3982,6 +4220,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/gensync-npm-1.0.0-beta.2-224666d72f-8.zip/node_modules/gensync/",
           "packageDependencies": [
             ["gensync", "npm:1.0.0-beta.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["get-caller-file", [
+        ["npm:2.0.5", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/get-caller-file-npm-2.0.5-80e8a86305-8.zip/node_modules/get-caller-file/",
+          "packageDependencies": [
+            ["get-caller-file", "npm:2.0.5"]
           ],
           "linkType": "HARD",
         }]
@@ -4254,6 +4501,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["whatwg-encoding", "npm:1.0.5"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/html-encoding-sniffer-npm-3.0.0-daac3dfe41-8.zip/node_modules/html-encoding-sniffer/",
+          "packageDependencies": [
+            ["html-encoding-sniffer", "npm:3.0.0"],
+            ["whatwg-encoding", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["html-tags", [
@@ -4325,6 +4580,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["http-proxy-agent", "npm:4.0.1"],
             ["@tootallnate/once", "npm:1.1.2"],
+            ["agent-base", "npm:6.0.2"],
+            ["debug", "virtual:4d5b41b4c144bc0f7c0e4c4c2164d0bc5d527811557a2fd7f2ec3307b1cf1ca97f42a730a90b32caada41091b3e922a1e5a2d8c6ff2841b6857305532c68aca8#npm:4.3.2"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:5.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/http-proxy-agent-npm-5.0.0-7f1f121b83-8.zip/node_modules/http-proxy-agent/",
+          "packageDependencies": [
+            ["http-proxy-agent", "npm:5.0.0"],
+            ["@tootallnate/once", "npm:2.0.0"],
             ["agent-base", "npm:6.0.2"],
             ["debug", "virtual:4d5b41b4c144bc0f7c0e4c4c2164d0bc5d527811557a2fd7f2ec3307b1cf1ca97f42a730a90b32caada41091b3e922a1e5a2d8c6ff2841b6857305532c68aca8#npm:4.3.2"]
           ],
@@ -4765,6 +5030,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["is-potential-custom-element-name", [
+        ["npm:1.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/is-potential-custom-element-name-npm-1.0.1-f352f606f8-8.zip/node_modules/is-potential-custom-element-name/",
+          "packageDependencies": [
+            ["is-potential-custom-element-name", "npm:1.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["is-regex", [
         ["npm:1.1.4", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/is-regex-npm-1.1.4-cca193ef11-8.zip/node_modules/is-regex/",
@@ -4976,6 +5250,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["xml-name-validator", "npm:3.0.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:19.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/jsdom-npm-19.0.0-f0768fdc93-8.zip/node_modules/jsdom/",
+          "packageDependencies": [
+            ["jsdom", "npm:19.0.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:19.0.0", {
+          "packageLocation": "./.yarn/__virtual__/jsdom-virtual-4e2b5db5a9/6/C:/Users/paren/AppData/Local/Yarn/Berry/cache/jsdom-npm-19.0.0-f0768fdc93-8.zip/node_modules/jsdom/",
+          "packageDependencies": [
+            ["jsdom", "virtual:1a6418ce930ef46fa4f506d5be99ace160247145ff1fc4df21c76fbe086395a31ad33311281e8c253490bfd3a6bc9103c8c4afb0d2e00dd5acb50f868fde914b#npm:19.0.0"],
+            ["@types/canvas", null],
+            ["abab", "npm:2.0.5"],
+            ["acorn", "npm:8.6.0"],
+            ["acorn-globals", "npm:6.0.0"],
+            ["canvas", null],
+            ["cssom", "npm:0.5.0"],
+            ["cssstyle", "npm:2.3.0"],
+            ["data-urls", "npm:3.0.1"],
+            ["decimal.js", "npm:10.3.1"],
+            ["domexception", "npm:4.0.0"],
+            ["escodegen", "npm:2.0.0"],
+            ["form-data", "npm:4.0.0"],
+            ["html-encoding-sniffer", "npm:3.0.0"],
+            ["http-proxy-agent", "npm:5.0.0"],
+            ["https-proxy-agent", "npm:5.0.0"],
+            ["is-potential-custom-element-name", "npm:1.0.1"],
+            ["nwsapi", "npm:2.2.0"],
+            ["parse5", "npm:6.0.1"],
+            ["saxes", "npm:5.0.1"],
+            ["symbol-tree", "npm:3.2.4"],
+            ["tough-cookie", "npm:4.0.0"],
+            ["w3c-hr-time", "npm:1.0.2"],
+            ["w3c-xmlserializer", "npm:3.0.0"],
+            ["webidl-conversions", "npm:7.0.0"],
+            ["whatwg-encoding", "npm:2.0.0"],
+            ["whatwg-mimetype", "npm:3.0.0"],
+            ["whatwg-url", "npm:10.0.0"],
+            ["ws", "virtual:4e2b5db5a9584167fa6f83cbdc419c46e2f328fd710f9aeecad6414bba45e41ec77fc37fb6298ec65606f53e648c973450def0c6e0a924cd0a70c152ce451b6e#npm:8.3.0"],
+            ["xml-name-validator", "npm:4.0.0"]
+          ],
+          "packagePeers": [
+            "@types/canvas",
+            "canvas"
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["jsesc", [
@@ -5072,6 +5393,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lazystream", [
+        ["npm:1.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lazystream-npm-1.0.1-7477e64441-8.zip/node_modules/lazystream/",
+          "packageDependencies": [
+            ["lazystream", "npm:1.0.1"],
+            ["readable-stream", "npm:2.3.7"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["levn", [
         ["npm:0.3.0", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/levn-npm-0.3.0-48d774b1c2-8.zip/node_modules/levn/",
@@ -5164,6 +5495,42 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lodash.defaults", [
+        ["npm:4.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.defaults-npm-4.2.0-c5dea025ab-8.zip/node_modules/lodash.defaults/",
+          "packageDependencies": [
+            ["lodash.defaults", "npm:4.2.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.difference", [
+        ["npm:4.5.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.difference-npm-4.5.0-7a179a50e1-8.zip/node_modules/lodash.difference/",
+          "packageDependencies": [
+            ["lodash.difference", "npm:4.5.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.flatten", [
+        ["npm:4.4.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.flatten-npm-4.4.0-495935e617-8.zip/node_modules/lodash.flatten/",
+          "packageDependencies": [
+            ["lodash.flatten", "npm:4.4.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.isplainobject", [
+        ["npm:4.0.6", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.isplainobject-npm-4.0.6-d73937742f-8.zip/node_modules/lodash.isplainobject/",
+          "packageDependencies": [
+            ["lodash.isplainobject", "npm:4.0.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash.memoize", [
         ["npm:4.1.2", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.memoize-npm-4.1.2-0e6250041f-8.zip/node_modules/lodash.memoize/",
@@ -5187,6 +5554,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.sortby-npm-4.7.0-fda8ab950d-8.zip/node_modules/lodash.sortby/",
           "packageDependencies": [
             ["lodash.sortby", "npm:4.7.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.union", [
+        ["npm:4.6.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/lodash.union-npm-4.6.0-8c9e2d9292-8.zip/node_modules/lodash.union/",
+          "packageDependencies": [
+            ["lodash.union", "npm:4.6.0"]
           ],
           "linkType": "HARD",
         }]
@@ -5972,6 +6348,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/parse5-npm-5.1.0-b9c35ee7fa-8.zip/node_modules/parse5/",
           "packageDependencies": [
             ["parse5", "npm:5.1.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:6.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/parse5-npm-6.0.1-70a35a494a-8.zip/node_modules/parse5/",
+          "packageDependencies": [
+            ["parse5", "npm:6.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -6969,6 +7352,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["printj", [
+        ["npm:1.1.2", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/printj-npm-1.1.2-5c18cf1e70-8.zip/node_modules/printj/",
+          "packageDependencies": [
+            ["printj", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["process", [
         ["npm:0.11.10", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/process-npm-0.11.10-aeb3b641ae-8.zip/node_modules/process/",
@@ -7190,6 +7582,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["readdir-glob", [
+        ["npm:1.1.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/readdir-glob-npm-1.1.1-87f85951a7-8.zip/node_modules/readdir-glob/",
+          "packageDependencies": [
+            ["readdir-glob", "npm:1.1.1"],
+            ["minimatch", "npm:3.0.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["readdirp", [
         ["npm:3.6.0", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/readdirp-npm-3.6.0-f950cc74ab-8.zip/node_modules/readdirp/",
@@ -7300,6 +7702,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/request",
             "request"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["require-directory", [
+        ["npm:2.1.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/require-directory-npm-2.1.1-8608aee50b-8.zip/node_modules/require-directory/",
+          "packageDependencies": [
+            ["require-directory", "npm:2.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -7422,6 +7833,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/saxes-npm-3.1.11-a42cfd8cfa-8.zip/node_modules/saxes/",
           "packageDependencies": [
             ["saxes", "npm:3.1.11"],
+            ["xmlchars", "npm:2.2.0"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:5.0.1", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/saxes-npm-5.0.1-57abf031ae-8.zip/node_modules/saxes/",
+          "packageDependencies": [
+            ["saxes", "npm:5.0.1"],
             ["xmlchars", "npm:2.2.0"]
           ],
           "linkType": "HARD",
@@ -7952,6 +8371,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["tar-stream", [
+        ["npm:2.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/tar-stream-npm-2.2.0-884c79b510-8.zip/node_modules/tar-stream/",
+          "packageDependencies": [
+            ["tar-stream", "npm:2.2.0"],
+            ["bl", "npm:4.1.0"],
+            ["end-of-stream", "npm:1.4.4"],
+            ["fs-constants", "npm:1.0.0"],
+            ["inherits", "npm:2.0.4"],
+            ["readable-stream", "npm:3.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["term-size", [
         ["npm:2.2.1", {
           "packageLocation": "./.yarn/unplugged/term-size-npm-2.2.1-77ce7141d0/node_modules/term-size/",
@@ -8053,6 +8486,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["punycode", "npm:2.1.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/tough-cookie-npm-4.0.0-7c5f3086af-8.zip/node_modules/tough-cookie/",
+          "packageDependencies": [
+            ["tough-cookie", "npm:4.0.0"],
+            ["psl", "npm:1.8.0"],
+            ["punycode", "npm:2.1.1"],
+            ["universalify", "npm:0.1.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["tr46", [
@@ -8060,6 +8503,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/tr46-npm-1.0.1-9547f343a4-8.zip/node_modules/tr46/",
           "packageDependencies": [
             ["tr46", "npm:1.0.1"],
+            ["punycode", "npm:2.1.1"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/tr46-npm-3.0.0-e1ae1ea7c9-8.zip/node_modules/tr46/",
+          "packageDependencies": [
+            ["tr46", "npm:3.0.0"],
             ["punycode", "npm:2.1.1"]
           ],
           "linkType": "HARD",
@@ -8183,6 +8634,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["unique-slug", "npm:2.0.2"],
             ["imurmurhash", "npm:0.1.4"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["universalify", [
+        ["npm:0.1.2", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/universalify-npm-0.1.2-9b22d31d2d-8.zip/node_modules/universalify/",
+          "packageDependencies": [
+            ["universalify", "npm:0.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -8318,6 +8778,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["xml-name-validator", "npm:3.0.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/w3c-xmlserializer-npm-3.0.0-3419fc8f05-8.zip/node_modules/w3c-xmlserializer/",
+          "packageDependencies": [
+            ["w3c-xmlserializer", "npm:3.0.0"],
+            ["xml-name-validator", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["wcwidth", [
@@ -8346,6 +8814,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webidl-conversions", "npm:4.0.2"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:7.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/webidl-conversions-npm-7.0.0-e8c8e30c68-8.zip/node_modules/webidl-conversions/",
+          "packageDependencies": [
+            ["webidl-conversions", "npm:7.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["whatwg-encoding", [
@@ -8354,6 +8829,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["whatwg-encoding", "npm:1.0.5"],
             ["iconv-lite", "npm:0.4.24"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:2.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/whatwg-encoding-npm-2.0.0-d7451f51b4-8.zip/node_modules/whatwg-encoding/",
+          "packageDependencies": [
+            ["whatwg-encoding", "npm:2.0.0"],
+            ["iconv-lite", "npm:0.6.3"]
           ],
           "linkType": "HARD",
         }]
@@ -8365,9 +8848,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["whatwg-mimetype", "npm:2.3.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:3.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/whatwg-mimetype-npm-3.0.0-5b617710c1-8.zip/node_modules/whatwg-mimetype/",
+          "packageDependencies": [
+            ["whatwg-mimetype", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["whatwg-url", [
+        ["npm:10.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/whatwg-url-npm-10.0.0-769b9530cc-8.zip/node_modules/whatwg-url/",
+          "packageDependencies": [
+            ["whatwg-url", "npm:10.0.0"],
+            ["tr46", "npm:3.0.0"],
+            ["webidl-conversions", "npm:7.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:7.1.0", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/whatwg-url-npm-7.1.0-d6cae01571-8.zip/node_modules/whatwg-url/",
           "packageDependencies": [
@@ -8481,10 +8980,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
+        ["npm:8.3.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/ws-npm-8.3.0-e519e40e8d-8.zip/node_modules/ws/",
+          "packageDependencies": [
+            ["ws", "npm:8.3.0"]
+          ],
+          "linkType": "SOFT",
+        }],
         ["virtual:24ad13e2e6cd29d7dc989c87a09d4058c24a6610c139d9280bbe9ad07c1017073bf1c47748c68a0c8b34c2b1a056ad6f6a8680bbe468244e9cc252ac29cee3a3#npm:7.5.5", {
           "packageLocation": "./.yarn/__virtual__/ws-virtual-61c586b3f0/6/C:/Users/paren/AppData/Local/Yarn/Berry/cache/ws-npm-7.5.5-8f4a2a84a8-8.zip/node_modules/ws/",
           "packageDependencies": [
             ["ws", "virtual:24ad13e2e6cd29d7dc989c87a09d4058c24a6610c139d9280bbe9ad07c1017073bf1c47748c68a0c8b34c2b1a056ad6f6a8680bbe468244e9cc252ac29cee3a3#npm:7.5.5"],
+            ["@types/bufferutil", null],
+            ["@types/utf-8-validate", null],
+            ["bufferutil", null],
+            ["utf-8-validate", null]
+          ],
+          "packagePeers": [
+            "@types/bufferutil",
+            "@types/utf-8-validate",
+            "bufferutil",
+            "utf-8-validate"
+          ],
+          "linkType": "HARD",
+        }],
+        ["virtual:4e2b5db5a9584167fa6f83cbdc419c46e2f328fd710f9aeecad6414bba45e41ec77fc37fb6298ec65606f53e648c973450def0c6e0a924cd0a70c152ce451b6e#npm:8.3.0", {
+          "packageLocation": "./.yarn/__virtual__/ws-virtual-70d8d8eeb0/6/C:/Users/paren/AppData/Local/Yarn/Berry/cache/ws-npm-8.3.0-e519e40e8d-8.zip/node_modules/ws/",
+          "packageDependencies": [
+            ["ws", "virtual:4e2b5db5a9584167fa6f83cbdc419c46e2f328fd710f9aeecad6414bba45e41ec77fc37fb6298ec65606f53e648c973450def0c6e0a924cd0a70c152ce451b6e#npm:8.3.0"],
             ["@types/bufferutil", null],
             ["@types/utf-8-validate", null],
             ["bufferutil", null],
@@ -8524,6 +9047,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["xml-name-validator", "npm:3.0.0"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:4.0.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/xml-name-validator-npm-4.0.0-0857c21729-8.zip/node_modules/xml-name-validator/",
+          "packageDependencies": [
+            ["xml-name-validator", "npm:4.0.0"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["xmlchars", [
@@ -8553,6 +9083,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["y18n", [
+        ["npm:5.0.8", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/y18n-npm-5.0.8-5f3a0a7e62-8.zip/node_modules/y18n/",
+          "packageDependencies": [
+            ["y18n", "npm:5.0.8"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["yallist", [
         ["npm:4.0.0", {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/yallist-npm-4.0.0-b493d9e907-8.zip/node_modules/yallist/",
@@ -8567,6 +9106,43 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/yaml-npm-1.10.2-0e780aebdf-8.zip/node_modules/yaml/",
           "packageDependencies": [
             ["yaml", "npm:1.10.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["yargs", [
+        ["npm:16.2.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/yargs-npm-16.2.0-547873d425-8.zip/node_modules/yargs/",
+          "packageDependencies": [
+            ["yargs", "npm:16.2.0"],
+            ["cliui", "npm:7.0.4"],
+            ["escalade", "npm:3.1.1"],
+            ["get-caller-file", "npm:2.0.5"],
+            ["require-directory", "npm:2.1.1"],
+            ["string-width", "npm:4.2.3"],
+            ["y18n", "npm:5.0.8"],
+            ["yargs-parser", "npm:20.2.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["yargs-parser", [
+        ["npm:20.2.9", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/yargs-parser-npm-20.2.9-a1d19e598d-8.zip/node_modules/yargs-parser/",
+          "packageDependencies": [
+            ["yargs-parser", "npm:20.2.9"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["zip-stream", [
+        ["npm:4.1.0", {
+          "packageLocation": "../../../../../C:/Users/paren/AppData/Local/Yarn/Berry/cache/zip-stream-npm-4.1.0-c77601aed4-8.zip/node_modules/zip-stream/",
+          "packageDependencies": [
+            ["zip-stream", "npm:4.1.0"],
+            ["archiver-utils", "npm:2.1.0"],
+            ["compress-commons", "npm:4.1.1"],
+            ["readable-stream", "npm:3.6.0"]
           ],
           "linkType": "HARD",
         }]
