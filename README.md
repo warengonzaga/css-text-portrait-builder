@@ -10,10 +10,9 @@ A trending pure CSS text portrait builder for your loved ones. 🥰 You don't ne
 
 ## 😎 Demo
 
-This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Builder.
-I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](https://www.youtube.com/watch?v=XO9GiPOLd3I) for the text.
+This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Builder. I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](https://www.youtube.com/watch?v=XO9GiPOLd3I) for the text. With the help of this builder it is responsive like crazy. 😅
 
-[![demo image](.github/img/demo.png)](https://css-text-portrait-builder.vercel.app)
+[![demo image](https://media.giphy.com/media/2PlSEY3LJzsqMdWbJy/giphy.gif)](https://css-text-portrait-builder.vercel.app)
 
 ### ✨Community Showcase
 
