@@ -9,12 +9,17 @@
     "format": "prettier . -w",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "check": "yarn run lint && yarn run format:checkonly",
-    "stylefix": "yarn run format && yarn run lint:fix",
-    "dev": "yarn run clean:output && parcel src/index.html",
-    "build": "yarn run clean:output && parcel build src/index.html",
+    "check": "yarn lint && yarn format:checkonly",
+    "stylefix": "yarn format && yarn lint:fix",
+    "dev": "yarn clean:output && parcel src/index.html",
+    "build": "yarn clean:output && parcel build src/index.html",
+    "build:export": "yarn build --no-optimize --no-source-maps --no-scope-hoist",
     "serve": "parcel serve src/index.html",
-    "serve:https": "parcel serve src/index.html --https"
+    "serve:https": "parcel serve src/index.html --https",
+    "export": "yarn build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && yarn postexport",
+    "export:optimized": "yarn build && node scripts/postbuild.js dist/index.html && yarn postexport",
+    "postexport": "yarn compress && echo \n\u001b[32m\u001b[1mExport complete.",
+    "compress": "cd dist/ && bestzip export.zip *"
   },
   "repository": {
     "type": "git",
@@ -33,10 +38,12 @@
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
   "dependencies": {
+    "jsdom": "^19.0.0",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
+    "bestzip": "^2.2.0",
     "eslint": "^8.3.0",
     "eslint-config-google": "^0.14.0",
     "parcel": "^2.0.1",
