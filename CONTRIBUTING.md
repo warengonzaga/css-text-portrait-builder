@@ -30,4 +30,4 @@ For any security bugs or issues, please read the [security policy](./SECURITY.md
 
 ---
 
-💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | **[Citizen of Heaven](https://youtu.be/GwirdlbkUD8?t=150)** ▶️
+💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [YHWH](https://youtu.be/9vh6Dz9oh8I?t=85) 🙏
