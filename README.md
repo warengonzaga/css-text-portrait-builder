@@ -117,6 +117,8 @@ CSS Text Portrait Builder is licensed under [The MIT License](https://opensource
 
 CSS Text Portrait Builder is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/css-text-portrait-builder/graphs/contributors).
 
+[![contributors](https://contrib.rocks/image?repo=warengonzaga/css-text-portrait-builder)](https://github.com/warengonzaga/css-text-portrait-builder/graphs/contributors)
+
 ---
 
 💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | **[Citizen of Heaven](https://youtu.be/GwirdlbkUD8?t=150)** ▶️
