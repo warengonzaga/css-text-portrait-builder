@@ -15,3 +15,6 @@ yarn-error.log
 
 # parceljs
 .parcel-cache
+
+# VSCode user-specific settings
+.vscode

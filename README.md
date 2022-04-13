@@ -1,6 +1,6 @@
 # CSS Text Portrait Builder [![Mentioned in Awesome CSS Text Portrait](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/warengonzaga/awesome-css-text-portrait)
 
-[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![discord](https://img.shields.io/discord/659684980137656340?color=%235865F2&label=discord&logo=discord&logoColor=white&style=flat-square)](https://wrngnz.ga/discord) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
+[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
 
 📢 Nominate ([@WarenGonzaga](https://warengonzaga.com)) as **[GitHub Star](https://stars.github.com/nominate)**. If you appreciate his hardwork and dedication to open source.
 
@@ -10,10 +10,9 @@ A trending pure CSS text portrait builder for your loved ones. 🥰 You don't ne
 
 ## 😎 Demo
 
-This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Builder.
-I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](https://www.youtube.com/watch?v=XO9GiPOLd3I) for the text.
+This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Builder. I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](https://www.youtube.com/watch?v=XO9GiPOLd3I) for the text. With the help of this builder it is responsive like crazy. 😅
 
-[![demo image](.github/img/demo.png)](https://css-text-portrait-builder.vercel.app)
+[![demo image](./.github/img/demo.gif)](https://css-text-portrait-builder.vercel.app)
 
 ### ✨Community Showcase
 
@@ -64,7 +63,7 @@ Meet the requirements? Click the Gitpod button below to get started!
 1. Rename your image into `bg.jpg` and make sure it is in JPG/JPEG format.
 2. Navigate to `src/img` and upload your image, just replace the existing image.
 3. Next, open `config.json` file by just clicking it, an editor will open.
-4. Edit the contents of `config.json` file to match your needs. 
+4. Edit the contents of `config.json` file to match your needs.
    - For the object `name`, this is the name of your portrait, it can be a name of your subject.
    - For the object `text`, this is the text you want to see in the portrait. It can be a lyrics, a passage from a book, or a sweet message to your subject or loved one.
 5. Navigate to `src/scss` and open the file `_vars.scss` to edit the settings.
@@ -92,22 +91,14 @@ If you're facing a problem in using CSS Text Portrait Builder please [check the 
 
 ## 🍀 Sponsors and Supporters
 
-[![BuyMeaCoffee](https://img.shields.io/badge/Buymeacoffee-%23FFDD00.svg?&style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoff.ee/warengonzaga) [![Vercel](https://img.shields.io/badge/Vercel-%23000.svg?&style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com) [![CircleCI](https://img.shields.io/badge/CircleCI-%23000.svg?&style=for-the-badge&logo=CircleCI&logoColor=white)](https://vercel.com) [![GitBook](https://img.shields.io/badge/GitBook-%233884FF.svg?&style=for-the-badge&logo=gitbook&logoColor=white)](https://gitbook.io) [![Digital Ocean](https://img.shields.io/badge/Digital%20Ocean-%230080ff.svg?&style=for-the-badge&logo=digitalocean&logoColor=white)](https://digitalocean.com) [![Gitpod](https://img.shields.io/badge/Gitpod-%23FFAE33.svg?&style=for-the-badge&logo=gitpod&logoColor=black)](https://gitpod.io) [![Deepware](https://img.shields.io/badge/deepware-%23cb2653.svg?&style=for-the-badge&logoColor=white)](https://deepware.ai/) [![NOWPayments](https://img.shields.io/badge/NOWPayments-%2364ACFF.svg?&style=for-the-badge&logoColor=white)](https://nowpayments.io) [![StackHawk](https://img.shields.io/badge/Stackhawk-%2300CBC6.svg?&style=for-the-badge&logoColor=white)](https://stackhawk.com)
-
 > Love what I do? **[Send me some coffees](https://buymeacoff.ee/wareneutron)**! ☕☕☕
 >
 > Can't send coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
 > Your coffee donation and support will help me to continue working on open-source projects like this. 🙏😇
 
-## 🌏 Community
-
-Join to my growing tech community and get the latest updates!
-
-[![community](https://discordapp.com/api/guilds/659684980137656340/widget.png?style=banner2)](https://wrngnz.ga/discord) [![community](https://discordapp.com/api/guilds/694612151444439081/widget.png?style=banner2)](https://wareneutron.com/discord)
-
 ## 📋 Code of Conduct
 
-Read the project's [code of conduct](./code_of_conduct.md).
+Read the project's [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## 📃 License
 
@@ -121,12 +112,4 @@ CSS Text Portrait Builder is created by **[Waren Gonzaga](https://github.com/war
 
 ---
 
-💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | **[Citizen of Heaven](https://youtu.be/GwirdlbkUD8?t=150)** ▶️
-
-[personal website]: https://warengonzaga.com
-[business website]: https://wgcompanyhq.com
-[biolink]: https://bio.link/warengonzaga
-[facebook]: https://facebook.com/warengonzagaofficial
-[twitter]: https://twitter.com/warengonzaga
-[instagram]: https://instagram.com/warengonzagaofficial
-[youtube]: https://youtube.com/warengonzaga
+💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [YHWH](https://youtu.be/9vh6Dz9oh8I?t=85) 🙏

@@ -12,7 +12,9 @@ There are many ways to contribute to this open source project. Any contributions
 
 ### 🧬 Development
 
-If you can write a code then create a pull request to this repo and I will review your code. Please consider to submit your pull request to the ```dev``` branch. I will auto reject if you submit your pull request to the ```main``` branch.
+If you can write a code then create a pull request to this repo and I will review your code. Please consider to submit your pull request to the `dev` branch. I will auto reject if you submit your pull request to the `main` branch.
+
+Before submitting a pull request, ensure that there is no code style issues by running `yarn run check`. If there are issues found, run `yarn run stylefix`.
 
 ### 📖 Documentation
 
@@ -28,4 +30,4 @@ For any security bugs or issues, please read the [security policy](./SECURITY.md
 
 ---
 
-💻 Made with 💖 and ☕ by **Waren Gonzaga** with **YHWH** 🙏 | **[Citizen of Heaven](https://youtu.be/GwirdlbkUD8?t=150)** ▶️
+💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [YHWH](https://youtu.be/9vh6Dz9oh8I?t=85) 🙏
