@@ -24,6 +24,6 @@ const setText = () => {
 
 window.addEventListener('load', setText);
 
-// Dynamically set text on resize/zoom to ensure
+// dynamically set text on resize/zoom to ensure
 // the entire viewport is covered with text
 window.addEventListener('resize', setText);

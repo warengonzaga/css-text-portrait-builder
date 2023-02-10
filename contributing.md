@@ -4,7 +4,7 @@ Any contributions are welcome, encouraged, and valued. See the following informa
 
 ## 📋 Code of Conduct
 
-This project and everyone participating in it is governed by the CSS Text Portrait Builder [Code of Conduct](https://github.com/warengonzaga/css-text-portrait-builder/blob/master/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to <opensource@warengonzaga.com>.
+This project and everyone participating in it is governed by the CSS Text Portrait Builder [Code of Conduct](https://github.com/warengonzaga/css-text-portrait-builder/blob/master/code_of_conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to <opensource@warengonzaga.com>.
 
 ## 💖 How to Contribute
 
@@ -26,8 +26,8 @@ Answering a question in [Discussions](https://github.com/warengonzaga/css-text-p
 
 ### 🐞 Reporting Bugs
 
-For any security bugs or issues, please read the [security policy](./SECURITY.md).
+For any security bugs or issues, please read the [security policy](./security.md).
 
 ---
 
-💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [YHWH](https://youtu.be/9vh6Dz9oh8I?t=85) 🙏
+💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
