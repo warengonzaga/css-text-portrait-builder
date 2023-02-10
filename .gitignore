@@ -21,4 +21,7 @@ node_modules
 
 # misc
 preview-link.txt
-dist
+dist/
+
+# temp
+.github/share.json
