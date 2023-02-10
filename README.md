@@ -27,6 +27,8 @@ This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Build
   - grayscale
   - invert
 - Gitpod support.
+- Generate build preview.
+- Upload exported build.
 
 Have suggestions in mind? Let me know!
 
