@@ -16,6 +16,7 @@
     "build:export": "yarn build --no-optimize --no-source-maps --no-scope-hoist",
     "serve": "parcel serve src/index.html",
     "serve:https": "parcel serve src/index.html --https",
+    "preview": "yarn serve & yarn lt --port 1234 > preview-link.txt",
     "export": "yarn build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && yarn postexport",
     "export:optimized": "yarn build && node scripts/postbuild.js dist/index.html && yarn postexport",
     "postexport": "yarn compress && echo \n\u001b[32m\u001b[1mExport complete.",
@@ -46,6 +47,7 @@
     "bestzip": "^2.2.1",
     "eslint": "^8.33.0",
     "eslint-config-google": "^0.14.0",
+    "localtunnel": "^2.0.2",
     "parcel": "^2.8.3",
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"

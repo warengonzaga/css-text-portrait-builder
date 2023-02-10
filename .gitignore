@@ -16,5 +16,8 @@ node_modules
 # parceljs
 .parcel-cache
 
-# VSCode user-specific settings
+# vscode user-specific settings
 .vscode
+
+# misc
+preview-link.txt
