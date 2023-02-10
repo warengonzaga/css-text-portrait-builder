@@ -3,21 +3,27 @@
  */
 
 import * as data from './config.json';
-import { repeatText } from './js/main';
-import 'normalize.css';
-import './scss/main.scss';
+import { computeMaxChar } from './js/main';
 
-const maxChar = 13500; // max chars to cover screen
 const textCount = data.text.length;
 const textPortrait = document.getElementById('text');
 
-var title = document.createElement("title");
-    title.innerHTML = `${data.name} | CSS Text Portrait`;
+const title = document.createElement('title');
+title.innerHTML = `${data.name} | CSS Text Portrait`;
 
 document.head.appendChild(title);
 
-// apply correct repeat count to text
-for (let i = 0; i * textCount <= maxChar + textCount; i++) {
-    textPortrait.innerHTML = repeatText(data.text+' ', i);
-    console.log(data.text.length * i);
-}
+const setText = () => {
+  const maxChar = computeMaxChar();
+
+  // apply correct repeat count to text
+  textPortrait.innerHTML = `${data.text} `
+    .repeat(Math.ceil(maxChar / textCount))
+    .substring(0, maxChar + 1);
+};
+
+window.addEventListener('load', setText);
+
+// dynamically set text on resize/zoom to ensure
+// the entire viewport is covered with text
+window.addEventListener('resize', setText);
