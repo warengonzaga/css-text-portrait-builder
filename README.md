@@ -89,10 +89,11 @@ If you're facing a problem in using CSS Text Portrait Builder please [check the 
 
 ## 🍀 Sponsor
 
-> Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
->
-> Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
-> Your support will help me to continue working on open-source projects like this. 🙏😇
+Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
+
+Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
+
+> **Note**: Your support means a lot to me as it allows me to dedicate my time and energy to create and maintain open-source projects that benefits the community. Thank you for supporting my mission to make technology better, accessible and inclusive for everyone. 🙏😇
 
 ## 📋 Code of Conduct
 
