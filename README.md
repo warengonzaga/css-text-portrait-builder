@@ -1,6 +1,6 @@
 # CSS Text Portrait Builder [![Mentioned in Awesome CSS Text Portrait](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/warengonzaga/awesome-css-text-portrait)
 
-[![created by](https://img.shields.io/badge/created%20by-Waren%20Gonzaga-blue.svg?longCache=true&style=flat-square)](https://github.com/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
+[![by](https://img.shields.io/badge/by-Waren%20Gonzaga-blue.svg?labelColor=181717&style=flat-square)](https://github.com/warengonzaga) [![sponsors](https://img.shields.io/badge/sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square)](https://github.com/sponsors/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
 
 [![repo banner](.github/img/repo_banner.png)](https://github.com/warengonzaga/css-text-portrait-builder)
 
@@ -89,10 +89,11 @@ If you're facing a problem in using CSS Text Portrait Builder please [check the 
 
 ## 🍀 Sponsor
 
-> Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
->
-> Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
-> Your support will help me to continue working on open-source projects like this. 🙏😇
+Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
+
+Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
+
+> **Note**: Your support means a lot to me as it allows me to dedicate my time and energy to create and maintain open-source projects that benefits the community. Thank you for supporting my mission to make technology better, accessible and inclusive for everyone. 🙏😇
 
 ## 📋 Code of Conduct
 
