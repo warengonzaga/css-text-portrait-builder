@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
   "dependencies": {
-    "jsdom": "^22.1.0",
+    "jsdom": "^23.0.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
