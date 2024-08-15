@@ -1,10 +1,12 @@
-# CSS Text Portrait Builder [![Mentioned in Awesome CSS Text Portrait](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/warengonzaga/awesome-css-text-portrait)
+# CSS Text Portrait Builder [![author/maintainer](https://img.shields.io/badge/by-Waren%20Gonzaga-016eea.svg?logo=github&labelColor=181717&longCache=true&style=flat-square)](https://warengonzaga.com) [![nominate](https://img.shields.io/badge/nominate-%20@warengonzaga%20as%20GitHub%20Star-yellow.svg?logo=github&labelColor=181717&longCache=true&style=flat-square)](https://stars.github.com/nominate) [![Mentioned in Awesome CSS Text Portrait](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/warengonzaga/awesome-css-text-portrait)
 
-[![by](https://img.shields.io/badge/by-Waren%20Gonzaga-blue.svg?labelColor=181717&style=flat-square)](https://github.com/warengonzaga) [![sponsors](https://img.shields.io/badge/sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square)](https://github.com/sponsors/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
+[![made in](https://img.shields.io/badge/project%20for-Open%20Source%20Software%20PH-0060a0.svg?logo=github&longCache=true&labelColor=181717&style=flat-square)](https://github.com/ossphilippines) [![sponsors](https://img.shields.io/badge/sponsor-%E2%9D%A4-%23db61a2.svg?&logo=github&logoColor=white&labelColor=181717&style=flat-square)](https://github.com/sponsors/warengonzaga) [![release](https://img.shields.io/github/release/warengonzaga/css-text-portrait-builder.svg?logo=github&labelColor=181717&color=green&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/releases) [![star](https://img.shields.io/github/stars/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&color=yellow&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/stargazers) [![license](https://img.shields.io/github/license/warengonzaga/css-text-portrait-builder.svg?&logo=github&labelColor=181717&style=flat-square)](https://github.com/warengonzaga/css-text-portrait-builder/blob/main/license)
 
 [![repo banner](.github/img/repo_banner.png)](https://github.com/warengonzaga/css-text-portrait-builder)
 
 A trending pure CSS text portrait builder for your loved ones. 🥰 You don't need to waste your time just to create it from scratch and spend time working on its CSS sorcery. Here's the builder just for you! ✨
+
+Like this project? **Leave a star**! ⭐⭐⭐⭐⭐
 
 ## 😎 Demo
 
@@ -73,6 +75,10 @@ Meet the requirements? Click the Gitpod button below to get started!
 
 To learn more about hosting your builds check out the [community discussion](https://github.com/warengonzaga/css-text-portrait-builder/discussions).
 
+## ⚙️ Project Activity
+
+![activity](https://repobeats.axiom.co/api/embed/f6f3a65b2993ccc86b8bf66993f61bf2f18105ee.svg "Repobeats analytics image")
+
 ## 🎯 Contributing
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider to submit your pull request to the `dev` branch. Thank you!
@@ -87,13 +93,15 @@ For any questions, suggestions, ideas, or simply you want to share your experien
 
 If you're facing a problem in using CSS Text Portrait Builder please [check the community FAQs first](https://github.com/WarenGonzaga/css-text-portrait-builder/discussions?discussions_q=label%3Afaq), if your issue is a potential bug I would suggest to [create an issue here](https://github.com/warengonzaga/css-text-portrait-builder/issues/new). I'm here to help you! 😇
 
-## 🍀 Sponsor
+## 🙏 Sponsor
 
-Love what I do? Send me some [love](https://github.com/sponsors/warengonzaga) or [coffee](https://buymeacoff.ee/warengonzaga)!? 💖☕
+Like this project? **Leave a star**! ⭐⭐⭐⭐⭐
 
-Can't send love or coffees? 😥 Nominate me for a **[GitHub Star](https://stars.github.com/nominate)** instead!
+Want to support my work and get some perks? [Become a sponsor](https://github.com/sponsors/warengonzaga)! 💖
 
-> **Note**: Your support means a lot to me as it allows me to dedicate my time and energy to create and maintain open-source projects that benefits the community. Thank you for supporting my mission to make technology better, accessible and inclusive for everyone. 🙏😇
+Or, you just love what I do? [Buy me a coffee](https://buymeacoffee.com/warengonzaga)! ☕
+
+Recognized my open-source contributions? [Nominate me](https://stars.github.com/nominate) as GitHub Star! 💫
 
 ## 📋 Code of Conduct
 
@@ -101,14 +109,14 @@ Read the project's [code of conduct](./code_of_conduct.md).
 
 ## 📃 License
 
-CSS Text Portrait Builder is licensed under [The MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
 ## 📝 Author
 
-CSS Text Portrait Builder is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/css-text-portrait-builder/graphs/contributors).
+This project is created by **[Waren Gonzaga](https://github.com/warengonzaga)**, with the help of awesome [contributors](https://github.com/warengonzaga/css-text-portrait-builder/graphs/contributors).
 
 [![contributors](https://contrib.rocks/image?repo=warengonzaga/css-text-portrait-builder)](https://github.com/warengonzaga/css-text-portait-builder/graphs/contributors)
 
 ---
 
-💻💖☕ by [Waren Gonzaga](https://warengonzaga.com) | [He is Awesome](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
+💻 with ❤️ by [Waren Gonzaga](https://warengonzaga.com) and [Him](https://www.youtube.com/watch?v=HHrxS4diLew&t=44s) 🙏
