@@ -9,19 +9,19 @@
     "format": "prettier . -w",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "check": "yarn lint && yarn format:checkonly",
-    "stylefix": "yarn format && yarn lint:fix",
-    "dev": "yarn clean:output && parcel src/index.html",
-    "build": "yarn clean:output && parcel build src/index.html",
-    "build:export": "yarn build --no-optimize --no-source-maps --no-scope-hoist",
+    "check": "pnpm lint && pnpm format:checkonly",
+    "stylefix": "pnpm format && pnpm lint:fix",
+    "dev": "pnpm clean:output && parcel src/index.html",
+    "build": "pnpm clean:output && parcel build src/index.html",
+    "build:export": "pnpm build --no-optimize --no-source-maps --no-scope-hoist",
     "serve": "parcel serve src/index.html",
     "serve:https": "parcel serve src/index.html --https",
-    "preview": "yarn serve & yarn lt --port 1234 > preview-link.txt",
-    "export": "yarn build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && yarn postexport",
-    "export:upload": "yarn export && curl --silent -F \"file=@dist/export.zip\" https://file.io > .github/share.json && yarn export:upload:getlink",
+    "preview": "pnpm serve & pnpm lt --port 1234 > preview-link.txt",
+    "export": "pnpm build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && pnpm postexport",
+    "export:upload": "pnpm export && curl --silent -F \"file=@dist/export.zip\" https://file.io > .github/share.json && pnpm export:upload:getlink",
     "export:upload:getlink": "node -pe 'JSON.parse(process.argv[1]).link' \"$(cat .github/share.json)\"",
-    "export:optimized": "yarn build && node scripts/postbuild.js dist/index.html && yarn postexport",
-    "postexport": "yarn compress && echo \n\u001b[32m\u001b[1mExport complete.",
+    "export:optimized": "pnpm build && node scripts/postbuild.js dist/index.html && pnpm postexport",
+    "postexport": "pnpm compress && echo \n\u001b[32m\u001b[1mExport complete.",
     "compress": "cd dist/ && bestzip export.zip *"
   },
   "repository": {
@@ -54,5 +54,5 @@
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "pnpm@9.15.9"
 }

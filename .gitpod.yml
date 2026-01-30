@@ -1,7 +1,7 @@
 tasks:
   - name: Instant Setup
-    init: yarn install
-    command: yarn dev
+    init: pnpm install
+    command: pnpm dev
 ports:
   - port: 1234
     onOpen: open-browser
