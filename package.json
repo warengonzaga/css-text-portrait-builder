@@ -1,6 +1,7 @@
 {
   "name": "css-text-portrait-builder",
   "version": "1.2.0",
+  "type": "module",
   "description": "A popular pure CSS text portrait builder for your loved ones.",
   "source": "src/index.html",
   "scripts": {
@@ -45,14 +46,21 @@
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
+    "@eslint/js": "^9.39.2",
+    "@parcel/transformer-sass": "^2.16.3",
     "bestzip": "^2.2.1",
-    "eslint": "^8.33.0",
+    "eslint": "^9.39.2",
     "eslint-config-google": "^0.14.0",
     "localtunnel": "^2.0.2",
-    "parcel": "^2.8.3",
+    "parcel": "^2.16.3",
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "axios": "1.13.3",
+      "localtunnel>axios": "1.13.3"
+    }
   },
   "packageManager": "pnpm@9.15.9"
 }

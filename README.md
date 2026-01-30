@@ -12,7 +12,7 @@ Like this project? **Leave a star**! ⭐⭐⭐⭐⭐
 
 This **Nayeon CSS Text Portrait** below is created using CSS Text Portrait Builder. I use colored high-resolution image with lyrics from [Nayeon's Santa Tell Me](https://www.youtube.com/watch?v=XO9GiPOLd3I) for the text. With the help of this builder it is responsive like crazy. 😅
 
-[![demo image](./.github/img/demo.gif)](https://css-text-portrait-builder.vercel.app)
+[![demo image](./.github/img/demo.gif)](https://warengonzaga.github.io/css-text-portrait-builder)
 
 ### ✨Community Showcase
 
@@ -77,7 +77,7 @@ To learn more about hosting your builds check out the [community discussion](htt
 
 ## ⚙️ Project Activity
 
-![activity](https://repobeats.axiom.co/api/embed/f6f3a65b2993ccc86b8bf66993f61bf2f18105ee.svg "Repobeats analytics image")
+![activity](https://repobeats.axiom.co/api/embed/f6f3a65b2993ccc86b8bf66993f61bf2f18105ee.svg 'Repobeats analytics image')
 
 ## 🎯 Contributing
 
