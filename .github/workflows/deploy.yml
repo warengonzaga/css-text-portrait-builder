@@ -35,7 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build -- --public-url /css-text-portrait-builder/
+        run: pnpm clean:output && pnpm parcel build src/index.html --public-url /css-text-portrait-builder/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
