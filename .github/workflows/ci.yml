@@ -17,8 +17,13 @@ jobs:
           node-version: 18
           cache: 'yarn'
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
+
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
 
       - name: Check codestyle
-        run: yarn run check
+        run: pnpm run check
