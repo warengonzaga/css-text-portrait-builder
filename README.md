@@ -77,7 +77,7 @@ To learn more about hosting your builds check out the [community discussion](htt
 
 ## ⚙️ Project Activity
 
-![activity](https://repobeats.axiom.co/api/embed/f6f3a65b2993ccc86b8bf66993f61bf2f18105ee.svg 'Repobeats analytics image')
+![activity](https://repobeats.axiom.co/api/embed/f6f3a65b2993ccc86b8bf66993f61bf2f18105ee.svg "Repobeats analytics image")
 
 ## 🎯 Contributing
 
