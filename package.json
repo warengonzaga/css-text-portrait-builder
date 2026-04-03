@@ -42,24 +42,27 @@
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
   "dependencies": {
-    "jsdom": "^21.1.0",
+    "jsdom": "^29.0.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@parcel/transformer-sass": "^2.16.3",
+    "@parcel/transformer-sass": "^2.16.4",
     "bestzip": "^2.2.1",
     "eslint": "^9.26.0",
     "eslint-config-google": "^0.14.0",
     "localtunnel": "^2.0.2",
-    "parcel": "^2.16.3",
+    "parcel": "^2.16.4",
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
   },
+  "overrides": {
+    "axios": "1.14.0"
+  },
   "pnpm": {
     "overrides": {
-      "axios": "1.13.3",
-      "localtunnel>axios": "1.13.3"
+      "axios": "1.14.0",
+      "localtunnel>axios": "1.14.0"
     }
   },
   "packageManager": "pnpm@9.15.9"
