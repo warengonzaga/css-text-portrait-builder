@@ -62,7 +62,17 @@
   "pnpm": {
     "overrides": {
       "axios": "1.14.0",
-      "localtunnel>axios": "1.14.0"
+      "localtunnel>axios": "1.14.0",
+      "ajv@^6.12.4": "6.14.0",
+      "brace-expansion@^1.1.7": "1.1.13",
+      "brace-expansion@^2.0.1": "2.0.3",
+      "flatted@^3.2.9": "3.4.2",
+      "immutable@^5.0.2": "5.1.5",
+      "minimatch@^3.1.1": "3.1.5",
+      "minimatch@^3.1.2": "3.1.5",
+      "minimatch@^5.1.0": "5.1.9",
+      "minimatch@^8.0.2": "8.0.7",
+      "picomatch@^4.0.3": "4.0.4"
     }
   },
   "packageManager": "pnpm@9.15.9"
