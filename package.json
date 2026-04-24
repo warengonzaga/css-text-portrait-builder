@@ -56,6 +56,6 @@
   },
   "packageManager": "yarn@3.4.1",
   "resolutions": {
-    "axios": "^0.30.3"
+    "axios": "0.30.3"
   }
 }
