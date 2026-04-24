@@ -1,8 +1,5 @@
-# Yarn
-.yarn
-.pnp.*
-.yarnrc.yml
-yarn-error.log
+# pnpm
+pnpm-lock.yaml
 
 # Github
 .github

@@ -1,6 +1,7 @@
 {
   "name": "css-text-portrait-builder",
   "version": "1.2.0",
+  "type": "module",
   "description": "A popular pure CSS text portrait builder for your loved ones.",
   "source": "src/index.html",
   "scripts": {
@@ -9,19 +10,19 @@
     "format": "prettier . -w",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "check": "yarn lint && yarn format:checkonly",
-    "stylefix": "yarn format && yarn lint:fix",
-    "dev": "yarn clean:output && parcel src/index.html",
-    "build": "yarn clean:output && parcel build src/index.html",
-    "build:export": "yarn build --no-optimize --no-source-maps --no-scope-hoist",
+    "check": "pnpm lint && pnpm format:checkonly",
+    "stylefix": "pnpm format && pnpm lint:fix",
+    "dev": "pnpm clean:output && parcel src/index.html",
+    "build": "pnpm clean:output && parcel build src/index.html",
+    "build:export": "pnpm build --no-optimize --no-source-maps --no-scope-hoist",
     "serve": "parcel serve src/index.html",
     "serve:https": "parcel serve src/index.html --https",
-    "preview": "yarn serve & yarn lt --port 1234 > preview-link.txt",
-    "export": "yarn build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && yarn postexport",
-    "export:upload": "yarn export && curl --silent -F \"file=@dist/export.zip\" https://file.io > .github/share.json && yarn export:upload:getlink",
+    "preview": "pnpm serve & pnpm lt --port 1234 > preview-link.txt",
+    "export": "pnpm build:export && node scripts/postbuild.js dist/index.html && prettier dist -w --ignore-path && echo Prettify done.\n && pnpm postexport",
+    "export:upload": "pnpm export && curl --silent -F \"file=@dist/export.zip\" https://file.io > .github/share.json && pnpm export:upload:getlink",
     "export:upload:getlink": "node -pe 'JSON.parse(process.argv[1]).link' \"$(cat .github/share.json)\"",
-    "export:optimized": "yarn build && node scripts/postbuild.js dist/index.html && yarn postexport",
-    "postexport": "yarn compress && echo \n\u001b[32m\u001b[1mExport complete.",
+    "export:optimized": "pnpm build && node scripts/postbuild.js dist/index.html && pnpm postexport",
+    "postexport": "pnpm compress && echo \n\u001b[32m\u001b[1mExport complete.",
     "compress": "cd dist/ && bestzip export.zip *"
   },
   "repository": {
@@ -41,21 +42,38 @@
   },
   "homepage": "https://github.com/WarenGonzaga/css-text-portrait-builder#readme",
   "dependencies": {
-    "jsdom": "^21.1.0",
+    "jsdom": "^29.0.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
+    "@eslint/js": "^9.39.2",
+    "@parcel/transformer-sass": "^2.16.4",
     "bestzip": "^2.2.1",
-    "eslint": "^8.33.0",
+    "eslint": "^9.26.0",
     "eslint-config-google": "^0.14.0",
     "localtunnel": "^2.0.2",
-    "parcel": "^2.8.3",
+    "parcel": "^2.16.4",
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
   },
-  "packageManager": "yarn@3.4.1",
-  "resolutions": {
-    "axios": "0.30.3"
-  }
+  "overrides": {
+    "axios": "1.14.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "axios": "1.14.0",
+      "localtunnel>axios": "1.14.0",
+      "ajv@^6.12.4": "6.14.0",
+      "brace-expansion@^1.1.7": "1.1.13",
+      "brace-expansion@^2.0.1": "2.0.3",
+      "flatted@^3.2.9": "3.4.2",
+      "immutable@^5.0.2": "5.1.5",
+      "minimatch@^3.1.1": "3.1.5",
+      "minimatch@^3.1.2": "3.1.5",
+      "minimatch@^5.1.0": "5.1.9",
+      "minimatch@^8.0.2": "8.0.7",
+      "picomatch@^4.0.3": "4.0.4"
+    }
+  },
+  "packageManager": "pnpm@9.15.9"
 }
