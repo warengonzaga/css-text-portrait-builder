@@ -54,5 +54,8 @@
     "prettier": "^2.8.4",
     "rimraf": "^4.1.2"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "resolutions": {
+    "axios": "^0.30.3"
+  }
 }
